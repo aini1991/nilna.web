@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(64, 64, 214);
+    font-family: sans-serif;
+}
+
+header ,
+section#profil ,
+section#activities , 
+footer {
+width: 700px;
+margin: auto;
+padding: 15px;
+}
+header ,
+section#profil ,
+section#activities {
+    background-color: white;
+    border-bottom: 2px solid rgb(179, 149, 95);
+}
+header img {
+    width: 150px;
+    float: left;
+}
+header h1 {
+float: left;
+font-size: 62px;
+margin-top: 30px;
+margin-left: 20px;
+width: 600px;
+border-bottom: 5px solid gray;
+}
+
+section#profil h1, section#activies h1 {
+    margin-bottom: 20px;
+}
+
+section#profil h1, section#activities h1{
+    text-align: center;
+    font-size: 32px;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+}
+
+#profil-content{
+    width: 700px;
+    margin: auto;
+}
+
+#profil-content img{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+#profile-content #deskripsi-profil{
+    width: 450px;
+    float: left;
+}
+
+#profile-content #deskripsi-profil p {
+    text-align: justify;
+}
+
+.item-activity {
+    padding: 10px;
+}
+
+.item-activity img, .item-activity p {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+.item-activity p{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+footer {
+background-color: black;
+}
+
+footer a{
+display: block;
+text-align: center;
+font-size: 24px;
+color: white;
+text-decoration: none;
+background-color: rgb(94, 94, 223);
+width: 200px;
+margin: auto;
+padding: 10px 0;
+}
+
+footer a:hover{
+    background-color: aqua;
+}
+
+.fix-container {
+    clear: both;
+}
